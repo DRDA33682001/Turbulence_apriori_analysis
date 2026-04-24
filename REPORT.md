@@ -82,10 +82,7 @@ $\bar{u}_{i}$.  The interaction between resolved and subgrid-scale (SGS) motions
 appears as the SGS stress tensor,
 
 $$
-
-  \tau_{ij} = \overline{u_{i}u_{j}} - \bar{u}_{i}\bar{u}_{j},
-  
-
+\tau_{ij} = \overline{u_{i}u_{j}} - \bar{u}_{i}\bar{u}_{j},
 $$
 
 which must be modeled to close the filtered equations.  The dominant paradigm,
@@ -244,10 +241,7 @@ $\times$ 3 filter widths $\times$ 3 models) were produced per pipeline run.
 The Smagorinsky model closes the deviatoric SGS stress as
 
 $$
-
-  \tau_{ij}-\tfrac{1}{3}\tau_{kk}\delta_{ij} = -2\nu_{t}\bar{S}_{ij},
-  
-
+\tau_{ij}-\tfrac{1}{3}\tau_{kk}\delta_{ij} = -2\nu_{t}\bar{S}_{ij},
 $$
 
 with eddy viscosity $\nu_{t}=(C_{s}\Delta)^{2}|\bar{S}|$ and
@@ -261,13 +255,10 @@ from the traceless symmetric part of the squared velocity gradient tensor,
 $\mathcal{S}^{d}_{ij}$:
 
 $$
-
-  \nu_{t} = (C_{w}\Delta)^{2}
-  \frac{\bigl(\mathcal{S}^{d}_{ij}\mathcal{S}^{d}_{ij}\bigr)^{3/2}}
-  {\bigl(\bar{S}_{ij}\bar{S}_{ij}\bigr)^{5/2}
-   +\bigl(\mathcal{S}^{d}_{ij}\mathcal{S}^{d}_{ij}\bigr)^{5/4}},
-  
-
+\nu_{t} = (C_{w}\Delta)^{2}
+\frac{\bigl(\mathcal{S}^{d}_{ij}\mathcal{S}^{d}_{ij}\bigr)^{3/2}}
+{\bigl(\bar{S}_{ij}\bar{S}_{ij}\bigr)^{5/2}
++\bigl(\mathcal{S}^{d}_{ij}\mathcal{S}^{d}_{ij}\bigr)^{5/4}},
 $$
 
 with $C_{w}=0.5$.  The combination of strain and rotation information in
@@ -282,11 +273,8 @@ relating SGS stresses at the primary LES filter~$\Delta$ and a test filter
 $\widehat{\Delta}=2\Delta$:
 
 $$
-
-  \mathcal{L}_{ij} = \widehat{\bar{u}_{i}\bar{u}_{j}}-\hat{\bar{u}}_{i}\hat{\bar{u}}_{j}
-  = T_{ij}-\widehat{\tau}_{ij},
-  
-
+\mathcal{L}_{ij} = \widehat{\bar{u}_{i}\bar{u}_{j}}-\hat{\bar{u}}_{i}\hat{\bar{u}}_{j}
+= T_{ij}-\widehat{\tau}_{ij},
 $$
 
 where $\mathcal{L}_{ij}$ is the resolved Leonard stress and $T_{ij}$ is the
@@ -294,11 +282,8 @@ test-filter-level SGS stress.  Following Lilly's least-squares
 minimization:
 
 $$
-
-  C_{s}^{2}=\frac{\langle\mathcal{L}_{ij}^{\mathrm{dev}}M_{ij}\rangle}
-                  {\langle M_{ij}M_{ij}\rangle},
-  
-
+C_{s}^{2}=\frac{\langle\mathcal{L}_{ij}^{\mathrm{dev}}M_{ij}\rangle}
+{\langle M_{ij}M_{ij}\rangle},
 $$
 
 with $M_{ij}=-2\!\left(\widehat{\Delta}^{2}|\widehat{\bar{S}}|\widehat{\bar{S}}_{ij}
@@ -318,12 +303,9 @@ Four quantitative metrics characterize model performance.
 *Pointwise Frobenius tensor correlation:*
 
 $$
-
-  \rho = \frac{\sum_{ij}\langle\tau^{\rm model}_{ij}\,\tau^{\rm exact}_{ij}\rangle}
-              {\sqrt{\sum_{ij}\langle(\tau^{\rm model}_{ij})^{2}\rangle\cdot
-                     \sum_{ij}\langle(\tau^{\rm exact}_{ij})^{2}\rangle}},
-  
-
+\rho = \frac{\sum_{ij}\langle\tau^{\rm model}_{ij}\,\tau^{\rm exact}_{ij}\rangle}
+{\sqrt{\sum_{ij}\langle(\tau^{\rm model}_{ij})^{2}\rangle\cdot
+\sum_{ij}\langle(\tau^{\rm exact}_{ij})^{2}\rangle}},
 $$
 
 where the uncentered formulation is used, following Clark *et al.*.
@@ -1011,10 +993,7 @@ Kolmogorov's 1941 (K41) similarity theory predicts that the mean eddy viscosity 
 the inertial subrange scales as
 
 $$
-
-  \langle\nu_{r}\rangle \propto \varepsilon^{1/3}\,\Delta^{4/3}.
-  
-
+\langle\nu_{r}\rangle \propto \varepsilon^{1/3}\,\Delta^{4/3}.
 $$
 
 The mean resolved eddy viscosity is computed as
