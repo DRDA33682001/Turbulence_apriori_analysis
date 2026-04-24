@@ -1,0 +1,37 @@
+# Build artifacts
+build/
+*.o
+*.obj
+*.so
+*.dylib
+*.a
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+compile_commands.json
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# Data / results (large — regenerated from the pipeline)
+data/
+results/
+*.h5
+*.hdf5
+
+# FFTW plan cache
+fftw_wisdom.dat
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
+
+# Logs
+*.log
