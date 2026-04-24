@@ -22,7 +22,7 @@ subrange.
 ```
 
 ├── README.md                  ← you are here (quick-start + layout)
-├── REPORT.md                  ← full project write-up
+├── final_project_turbulence.pdf ← full project write-up (PDF)
 ├── .gitignore
 │
 ├── data_download/             ← JHTDB download pipeline
@@ -94,7 +94,7 @@ notes.
 The low correlation (~0.3), the inability of static models to reproduce
 backscatter, and the broad alignment distribution together illustrate the
 limits of the eddy-viscosity hypothesis that underlies all three models.
-See [`REPORT.md`](REPORT.md) for the full discussion.
+See [`final_project_turbulence.pdf`](final_project_turbulence.pdf) for the full discussion.
 
 ---
 
