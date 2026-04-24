@@ -20,7 +20,7 @@ subrange.
 ## Repository Layout
 
 ```
-prior_analysis/
+
 ├── README.md                  ← you are here (quick-start + layout)
 ├── REPORT.md                  ← full project write-up
 ├── .gitignore

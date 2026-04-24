@@ -32,7 +32,8 @@ Total download: **~6 GB** (8 files).
 * Python 3.10 or newer
 * A **JHTDB authorization token**. Register for free at
   <https://turbulence.pha.jhu.edu/authtoken.aspx>. Paste the token into
-  `download.py` (the variable `JHTDB_TOKEN` at the top of the file) or export it
+  `download.py` (replace the placeholder `"you need to get your api key and put it here"` 
+  for the variable `JHTDB_TOKEN` at the top of the file) or export it
   as the environment variable `JHTDB_TOKEN` before running.
 
 ---

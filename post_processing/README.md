@@ -2,7 +2,7 @@
 
 The Python scripts in this folder read the HDF5 result files produced by
 `../cpp_driver/` and produce every figure in `../figures/`. Nothing here
-does any physics — all modeling and tensor arithmetic lives in C++.
+does any physics  all modeling and tensor arithmetic lives in C++.
 Python only reads, aggregates, and plots.
 
 > **Input assumption:** `cpp_driver/run_full_ensemble.sh` has finished and
@@ -20,7 +20,7 @@ source .venv/bin/activate
 pip install -r requirements.txt
 ```
 
-Reusing the `data_download/` venv works too — the dependency list is
+Reusing the `data_download/` venv works too  the dependency list is
 identical except you don't need the JHTDB client here.
 
 ---
@@ -40,7 +40,7 @@ every `main()`.
 
 ---
 
-## 3. End-to-end — C++ outputs → figures
+## 3. End-to-end  C++ outputs → figures
 
 ```bash
 cd post_processing

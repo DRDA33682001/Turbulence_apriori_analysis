@@ -51,7 +51,7 @@ import numpy as np
 # value, per the brief. Everything else is either a constant or lives inside
 # a function.
 # ---------------------------------------------------------------------------
-JHTDB_TOKEN: str = "edu.colorado.Dron.DasPurkayastha-623fe870"
+JHTDB_TOKEN: str = "you need to get your api key and put it here"
 
 # Path constants (immutable; safe as module-level)
 _HERE: pathlib.Path = pathlib.Path(__file__).resolve().parent        # src/python/
